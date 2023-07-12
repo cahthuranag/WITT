@@ -3,7 +3,7 @@ from net.network import WITT
 from data.datasets import get_loader
 from utils import *
 torch.backends.cudnn.benchmark = True
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 import torch
 from datetime import datetime
 import torch.nn as nn
